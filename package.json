@@ -1,0 +1,26 @@
+{
+  "name": "osvaldo",
+  "description": "Discord bot to play musics on chanel",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "tsc && node ."
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Lucas Fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  }
+}
